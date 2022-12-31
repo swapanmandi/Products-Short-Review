@@ -1,0 +1,393 @@
+
+  *{
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+  }
+    .navbar{
+      background-color: navajowhite;     
+      width: 100%;
+      height: 65px;
+      position: fixed;
+      justify-content: left;
+      display: flex;
+      
+    
+    }
+    .navbar .cont a{
+      font-size: 18px;
+      text-decoration: none;
+      color:black;
+      position: relative;
+      padding: 5px 10px;
+      display: flex;
+    
+    }
+    .logo-div{
+        position: absolute;
+        padding-right: 20px;
+        display: block;
+        background-color:black;
+        width:px
+    }
+    .logo-div img{
+      height: 45px;
+      width: 250px;
+      padding: 10px;
+      display: bloc;
+      position:absolute;
+      padding-right: px;
+    
+      
+    }
+    .cont{
+      background-color: salmo;
+      display: flex;
+      overflow:hidden;
+      margin-left:300px;
+  
+    }
+    .latest{
+     height: 0px;
+     padding-top: 100px;
+    }
+    .navbar a:hover{
+      color: red;
+    }
+    .dropdown1{
+      justify-content: left;
+      display: inline-block;
+      padding: 0px;
+      margin: px;
+
+      
+    }
+    .d-element{
+      position: absolute;
+      display: none;
+      /* width:700px;            you can change dropdown style
+      background-color:wheat;
+      left:350px;  */
+      
+    }
+    .d-element a{
+      color:black;
+      display: block;
+      background-color:wheat;
+      margin:0px; /*margin
+      float: left;  */
+      padding: 0px;
+    }
+    .d-btn{
+      display: inline-block;
+      text-decoration: none;
+      font-size: 18px;
+      background: inherit;
+      border: none;
+      color:black;
+      padding: 20px 30px;
+      margin: 0px;
+    }
+    .search{
+      display: inline-bloc;
+      text-decoration: none;
+      border-radius: 12px;
+      outline: none;
+      margin-left: 0px;
+      height:30px;
+      border: none;
+    }
+    .dropdown1 .d-btn:hover{
+      color: red;
+    }
+    .dropdown1:hover .d-element{
+      display: block;
+      margin-top:1px;
+    }
+    .burger{
+      float: right;
+      display: none;
+    
+    }
+    .line{
+      height:4px;
+      width: 25px;
+      margin:3px;
+      background-color:rgb(15, 29, 231);
+    }
+    .body-div{
+      padding:0px 0px 0px 6%; 
+      margin: auto;     
+    }
+    .bottom{
+      height: 100px;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 40px 0px;
+      margin-top:50px;
+    }
+    .bottom p{
+      padding: 10px;
+
+    }
+    p{
+      width: 500px;
+    }
+    #top-btn{
+      height: 40px;
+      width: 40px;
+      position: fixed;
+      bottom: 20px;
+      right: 100px;
+      background-color: aquamarine;
+      display: none;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+    }
+    .product-div{
+        text-align: center;
+        color: black;
+        display:inline-block;
+        left:50px;
+        margin-top: 15px;
+        overflow: hidden;
+        margin:10px 25px;
+       
+      }
+      .product-name{
+          text-align:center;
+          padding: 2px 0px;
+      }
+      .product-img{
+          margin: auto;
+          height:300px;
+          width:250px;
+          padding-left: 25px;
+          padding-top: 5px;
+          
+      }
+      .product-desc{
+          width:300px;
+          text-align:justify;
+          line-height: 17px;
+          height: 100px;
+          font-size: 13px;
+          
+      }
+      #cart-btn{
+          height:30px;
+          width:100px;
+          background-color:#ff9800;
+          border:none;
+          border-radius:5px;
+          float: left;
+        
+      }
+      
+      #product-btn{
+          height:30px;
+          width:120px;
+          background-color:chartreuse;
+          border:none;
+          border-radius:5px;
+          float: right;
+      }
+      #product-btn a{
+        text-decoration:none;
+        color:black;
+        font-weight: bold;
+      }
+      #product-btn:hover, #cart-btn:hover {
+        background-color: cadetblue;
+      }
+      .remove-all-btn{
+        justify-content:flex-end;
+        display:flex;
+        background-color:red;
+        border-radius:5px;
+        height:30px;
+        width: 100px;
+        border: none;
+        margin-bottom: 5px;
+      }
+      .remove-all-btn a{
+        color: black;
+          text-decoration:none;
+      } 
+           .view{
+         /* display: inline-block;  */
+        text-decoration: none;
+        display: none; /*hide view count */
+      }
+     
+      .page-div a, .social a{
+        text-decoration: none;
+        color: white;
+        padding: 10px 10px;
+        
+      }
+      .page{
+        width: 700px;
+        margin: auto;
+        background-color: aqua;
+      }
+      .page h1,h2,h3{
+        text-align: center;
+        padding: 10px 0px;
+        
+      }
+  
+      /*for contact page */
+  
+      
+      .contact-div{
+        margin: auto;
+        width: 500px;
+        height: 700px;
+        padding: 50px;
+    }
+    .contact-div input{
+        height: 30px;
+        width: 295px;
+        border-radius: 5px;
+        outline: none;
+        text-decoration: none;
+        border: none;
+    }
+    .contact-btn{
+        height: 25px;
+        width: 70px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: gold;
+    }
+    .error{
+      color: red;
+    }
+    .my img{
+      height: 300px;
+      width: 350px;
+    }
+    .err-p{
+      margin: auto;
+     height: 300px;
+    }
+    .cart-count{
+     background-color:white;
+     width:50px;
+     padding:1px 6px;
+     border-radius:50%;
+     position:relative;
+     top:-20px;
+     left:-12px;
+    }
+    .c{
+      background-color: white;
+      
+    }
+    .signup, .signin{
+  background:aliceblue;
+  width:45%;
+  height:100%;
+  float:left;
+  margin:10px;
+  padding: 10px;
+  text-align: center;
+   }
+    
+
+    /*--------------------------------for mobile screen------------------------------------------------*/
+
+    @media  (max-width:990px){
+      .navbar{
+        position: fixed;
+      }
+      .cont{
+        flex-direction:column;
+         margin:auto;
+        padding:120px;
+        background-color: navajowhite;
+       margin-top:px;
+       display: none;
+       left: -150%;
+       height: 40vh;
+       width: 100%;
+    }
+    
+  .burger{
+    display: block;
+    position:absolute;
+    margin-top:21px;
+    margin-left: 10px;
+  }
+  .dropdown1:hover .d-element{
+    display: block;
+    position: relative;
+   top:30px
+  }
+  body,html{
+    max-width: 100%;
+    overflow-x:hidden;
+     }
+       .body-div{
+      padding:0px;      
+    }
+    .bottom {
+      max-width:100%;
+      margin:auto;
+     height:100%;
+     padding-bottom: 25px;
+  }
+  .bottom a{
+      display:block;
+  }
+  .search{
+      width:120px;
+        position:absolute;
+        top:20px;
+        right:10px
+        }
+        .logo-div img{
+          height: 30px;;
+          width: 100px;
+            display:block;
+            left: 50px;
+            top:8px;
+        }
+        #top-btn{
+          right:30px;
+      }
+      .d-element{
+        margin-bottom:40px
+    }
+    .d-btn{
+      padding:5px;
+  }
+  .page p, h3,h2,h1 {
+    width:200px;
+    margin:40px;
+
+}
+.mystyle{
+  display: flex;
+ flex-direction:column;
+}
+.page{
+  width:100%;
+  padding:5px;
+}
+.social p{
+width: 100%;
+}
+.cart {
+  position:fixed;
+  left: 170px;
+  top:15px;
+}
+
+
+}
+ 
