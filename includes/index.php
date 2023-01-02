@@ -37,14 +37,13 @@ session_start();
    <div class="logo-div"><img src='sm/upload/tsr-logo.png'/></div>
 
    <div class="cont">
-
    
     <a href="index.php">HOME</a>
 
      <a href="##">LATEST</a>
 
      <!--
-      
+     
       <div class="dropdown1">
         <button class="d-btn">GIFTS</button>
                 <div class="d-element">
