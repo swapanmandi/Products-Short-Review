@@ -43,7 +43,6 @@ session_start();
      <a href="##">LATEST</a>
 
      <!--
-     
       <div class="dropdown1">
         <button class="d-btn">GIFTS</button>
                 <div class="d-element">
