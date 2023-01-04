@@ -1,6 +1,3 @@
-
-
-
 <!-- bottom section-->
 
 <button id="top-btn" onclick=" topFunction()"><svg xmlns="http://www.w3.org/2000/svg" 
