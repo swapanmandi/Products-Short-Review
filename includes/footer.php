@@ -12,6 +12,7 @@
   <div class="bottom">
     
   <div class="page-div">
+     
           <a href="about.php">About Us</a>
           <a href="contact.php">Contact Us</a>
           <a href="privacy.php">Privacy Policy</a>
