@@ -25,8 +25,6 @@ session_start();
 	<meta name="google-site-verification" content="" />
   </head>
 <body>
-
-
    
     <!--header section -->
 
