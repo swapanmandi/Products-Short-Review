@@ -15,6 +15,7 @@ Now compare this site to what the site looked like in 2008 (here).
 </p>
 </div>
 
+
 <?php
 include'footer.php';
 ?>
