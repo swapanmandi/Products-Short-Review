@@ -26,7 +26,6 @@ session_start();
 	
   </head>
 <body>
-
    
     <!--header section -->
 
