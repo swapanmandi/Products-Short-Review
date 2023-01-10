@@ -4,8 +4,6 @@ include 'header.php';
 session_start();
 ?>
 
-
-
 <div class="signup">
 	
 	<h2>Signup</h2>
