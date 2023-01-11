@@ -22,7 +22,7 @@ session_start();
   <meta name="keywords" content="products, gadegts, cool gadgets, amazing products, gift">
   <meta name="description" content="The Short Reviews helps You to find all categories of amazing products, cool gadgets and unique gift ideas">
   <meta name="robots" content="noindex, nofollow">
-	<meta name="google-site-verification" content="" />
+  <meta name="google-site-verification" content="" />
   </head>
 <body>
    
