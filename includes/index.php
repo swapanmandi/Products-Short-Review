@@ -9,7 +9,7 @@ session_start();
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
-  <link rel="canonical" href="">
+  <link rel="canonical" href="#">
   <link rel="alternate" href="" hreflang="en-gb" />
   <link rel="icon" href="sm/upload/icon.png" type="image/icon">
   <link rel="stylesheet" type="text/css" href="style.css">
