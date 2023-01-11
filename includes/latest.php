@@ -11,6 +11,7 @@ hoping people read them. It’s interesting that it takes a different approach, 
 writing long content, it focuses on a clean layout and video reviews to show people 
 the product they’re testing, racking in 2.3 million monthly viewers. This is incredibly v
 aluable for people willing to buy, but want to see the product in a video demo before purchasing. 
+  
 Now compare this site to what the site looked like in 2008 (here).
 </p>
 </div>
