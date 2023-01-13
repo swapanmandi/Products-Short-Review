@@ -12,7 +12,27 @@ include 'header.php';
 	<title></title>
     <link rel="stylesheet" type="text/css" href="style.css">
   
-  
+   <style>
+        body-div{
+            padding-top:100px ;
+        }
+        td{
+            height:30px;
+            width:200px;
+            background-color:#8bcdc8;
+            text-align:center;
+            padding: 3px 0 3px 0;
+            
+        }
+        td img{
+            height:150px;
+            width:130px;
+        }
+        .empty_msg{
+            display: block;
+            text-align: center;
+            padding-bottom: 250px;       }
+    </style>
   
   </head>
 <body>
