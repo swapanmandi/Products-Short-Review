@@ -66,7 +66,6 @@ if (isset($_GET['action'])) {
 ?>
 
 
-
 <?php
     if (!empty($_SESSION['cart'])) {
 
@@ -98,7 +97,9 @@ if (isset($_GET['action'])) {
   
   
   <?php
+	
 include 'footer.php';
+	
 ?>
 
 </body>
