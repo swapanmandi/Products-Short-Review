@@ -79,7 +79,22 @@ if (isset($_GET['action'])) {
 
 
     <table>
-  
+   <tr>
+        <td><img src="sm/<?= $value['item_image']; ?>"></td>
+        <td> <?= $value['item_name']; ?></td>
+        <td><a style=" padding:5px; width:100px; background-color:#ff9800; text-decoration:none;
+          border-radius:5px;" href="<?= $value['item_link']; ?>" >View Product</a></td>
+        <td><a href="cart.php?action=delete&id=<?= $value['item_id']; ?>"><img src="sm/upload/icons8-delete-100 (1).png" style="height:30px; width:27px"></a></td>
+    </tr>
+    </table>
+            <?php
+        }
+    }
+    else 
+        echo "<span class='empty_msg'>Your cart is empty!<span>";
+
+
+?>
   
   
   <?php
