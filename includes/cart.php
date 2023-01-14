@@ -38,6 +38,47 @@ include 'header.php';
 <body>
 
 <?php
+	
+	//for remove from cart
+
+
+if (isset($_GET['action'])) {
+    if ($_GET['action']== "delete") {
+        foreach($_SESSION['cart'] as $key => $value){
+       if( $value['item_id'] == $_GET['id']) {
+           unset($_SESSION['cart'] [$key]);
+           header('location:cart.php');
+       }
+    }
+}
+}
+//remove all
+if (isset($_GET['action'])) {
+    if ($_GET['action']== "deleteAll") {
+        //foreach($_SESSION['cart'] as $key => $value){
+       //if( $value['item_id'] == $_GET['id']) {
+           unset($_SESSION['cart']);
+           header('location:cart.php');
+       }
+    }
+//}}
+    
+?>
+
+
+
+<?php
+    if (!empty($_SESSION['cart'])) {
+
+        ?>
+<button class="remove-all-btn"><a href="cart.php?action=deleteAll">Remove All</a></button>
+        <?php
+
+        foreach ($_SESSION['cart'] as $key => $value){
+            ?>
+
+
+    <table>
   
   
   
