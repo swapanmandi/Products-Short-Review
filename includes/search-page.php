@@ -22,3 +22,10 @@
 	
   </head>
 <body>
+
+	
+	<!-- bottom section-->
+
+<?php
+include'footer.php';
+?>
