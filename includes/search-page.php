@@ -49,6 +49,35 @@
       </div>
 
        -->
+	   
+	    <a href="category.php?id=gifts">GIFTS</a>
+
+      <div class="dropdown1">
+        <button class="d-btn">CATEGORIES</button>
+                <div class="d-element">
+          <a href="category.php?id=pets">Pets</a>
+          <a href="category.php?id=b&k">Baby & Kids</a>
+          <a href="category.php?id=travel">Travel</a>
+          <a href="category.php?id=h&g">Home & Garden</a>
+          <a href="category.php?id=outdoors">Outdoors</a>
+          <a href="category.php?id=kitchen">Kitchen</a>
+          <a href="category.php?id=appliances">Appliances</a>
+          <a href="category.php?id=mobile">Mobile</a>
+          <a href="category.php?id=electronics">Electronics</a>
+          <a href="category.php?id=gadgets">Gadgets</a>
+          <a href="category.php?id=h&f">Health & Fitness</a>
+          
+    
+        </div>
+      </div>
+
+
+      <a href="category.php?id=cloths">CLOTHS</a>
+     <a href="category.php?id=tech">TECHNOLOGY</a>
+
+     
+
+</div>
 
 	
 	<!-- bottom section-->
