@@ -36,6 +36,19 @@
     <a href="index.php">HOME</a>
 
      <a href="##">LATEST</a>
+	   
+	   <!--
+      
+      <div class="dropdown1">
+        <button class="d-btn">GIFTS</button>
+                <div class="d-element">
+                   <a href="##">Birthday</a>
+                   <a href="##">Special</a>
+                   <a href="##">Mothersday</a>
+                </div>
+      </div>
+
+       -->
 
 	
 	<!-- bottom section-->
