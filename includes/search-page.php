@@ -78,6 +78,18 @@
      
 
 </div>
+	   <form method="GET">
+      <input type="search" name="search" class="search"  placeholder="search name or id" >
+
+</form>
+
+<div class="burger" onclick="myFunction()">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+</div>
+</div>
+	 
 
 	
 	<!-- bottom section-->
