@@ -75,10 +75,9 @@
       <a href="category.php?id=cloths">CLOTHS</a>
      <a href="category.php?id=tech">TECHNOLOGY</a>
 
-     
-
 </div>
-	   <form method="GET">
+	   
+      <form method="GET">
       <input type="search" name="search" class="search"  placeholder="search name or id" >
 
 </form>
