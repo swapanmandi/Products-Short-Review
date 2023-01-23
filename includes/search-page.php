@@ -89,7 +89,16 @@
 </div>
 </div>
 	 
+<!--body section-->
+     <div class="body-div">
+     
 
+	 <div class="latest">
+
+	 
+	 </div>
+
+<!--from databas-->
 	
 	<!-- bottom section-->
 
