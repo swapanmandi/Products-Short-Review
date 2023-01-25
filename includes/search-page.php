@@ -108,6 +108,37 @@ if (isset($_GET['search'])){
 	$name = mysqli_real_escape_string($con, htmlspecialchars($_GET['search']));
 	$sql = "SELECT * FROM `test` WHERE name LIKE '%$name%' || id='$name'";
   $result = mysqli_query($con, $sql);
+	     
+	         
+  while($row = $result->fetch_assoc() ){
+
+        
+        <div class = "all product-div">
+       
+        <img class="product-img" src="sm/<?php echo $row["image"];?>"><br>
+        <input type="hidden"   name="image" value="<?= $row['image'];?>">
+        <input type="hidden" class="product-name" i="myh3" name="name" value="<?php echo $row["name"]; ?>"><?php echo $row["name"]; ?> <br>
+        <p class="product-desc"><?php echo $row["description"]."<br>" ?></p>
+     
+        <input type="submit" id="cart-btn" tyle=" height:30px; width:100px; background-color:#ff9800; border:none;
+          border-radius:5px;" name="add_to_cart" value="Add to Cart"/>
+
+        <input type="hidden" value="<?php echo $row['link']; ?>" name="link"><button id="product-btn" ><a href="<?php echo $row['link']; ?>">View Product</a></button>
+
+        
+      </div>
+
+<?php
+
+    }
+  
+
+?>
+
+
+
+</div>
+</div>
 	
 <!-- bottom section-->
 
