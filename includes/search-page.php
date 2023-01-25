@@ -99,6 +99,15 @@
 	 </div>
 
 <!--from databas-->
+	     
+	     include 'conn.php';
+
+      
+
+if (isset($_GET['search'])){
+	$name = mysqli_real_escape_string($con, htmlspecialchars($_GET['search']));
+	$sql = "SELECT * FROM `test` WHERE name LIKE '%$name%' || id='$name'";
+  $result = mysqli_query($con, $sql);
 	
 <!-- bottom section-->
 
