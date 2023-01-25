@@ -100,7 +100,7 @@
 
 <!--from databas-->
 	
-	<!-- bottom section-->
+<!-- bottom section-->
 
 <?php
 include'footer.php';
