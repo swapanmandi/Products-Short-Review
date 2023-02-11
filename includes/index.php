@@ -32,7 +32,7 @@ session_start();
 
    <div class="navbar">
     
-   <div class="logo-div"><img src='sm/upload/tsr-logo.png'/></div>
+   <div class="logo-div"><img src='sm/upload/logo.jpg'/></div>
 
    <div class="cont">
    
